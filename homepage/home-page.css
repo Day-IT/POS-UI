@@ -1,0 +1,24 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 5rem;
+    justify-items: center;
+    justify-content: space-between;
+  
+}
+
+.icon {
+    color: #ffff;
+    stroke-width: 1px;
+    height: 40px;
+    width: 40px;
+}

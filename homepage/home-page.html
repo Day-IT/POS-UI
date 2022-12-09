@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home-page.css">
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <title>Home Page</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+          <img class="logo" alt="dayit logo" src="dayit/white.jpg" width="75px" height="75px"/>
+        </a>
+        <nav class="main-nav">
+            <ul>
+                <li><ion-icon class="icon" name="apps-outline"></ion-icon></li>
+                <li><ion-icon class="icon" name="notifications-outline"></ion-icon></li>
+                <li><ion-icon class="icon" name="grid-outline"></ion-icon></li>
+                <li><ion-icon class="icon" name="home-outline"></ion-icon></li>
+                <li><ion-icon class="icon" name="time-outline"></ion-icon></li>
+                <li><ion-icon class="icon" name="pie-chart-outline"></ion-icon></li>
+                <li><ion-icon class="icon" name="settings-outline"></ion-icon></li>
+            </ul>
+        </nav>
+      <section class="staff-profile">
+        <figure>
+            <img src="img/miranda.jpg" width="75" height="75">
+            <figcaption>Hi Miranda</figcaption>
+        </figure>
+      </section>
+    </header>
+
+    <main>
+      <section class="search-box">
+        <input type="search" placeholder="search for food">
+      </section>
+      <article>
+        <ul>
+          <li>Pizza</li>
+          <li>Burger</li>
+          <li>Drinks</li>
+          <li>Meal Deal</li>
+        </ul>
+      </article>
+      <section>
+        <img src="" alt="pizza">
+        <h2>American Favorite</h2>
+        <p><span>S</span><span>M</span><span>L</span></p>
+      </section>
+     
+    </main>
+
+    <aside>
+      <article class="Order">
+        <h2>#4567</h2>
+        <p>Take Away</p>
+        <section class="food-item">
+          <ion-icon name="add-outline"></ion-icon>
+          <h2>Chicken Mushroom</h2>
+          <ion-icon name="remove-outline"></ion-icon>
+          <p>4</p>
+          <ion-icon name="add-outline"></ion-icon>
+          <p>No: <span>tomato</span></p>
+          <p>Extras: <span>cheese</span></p>
+          <p>Price: <span>24 $</span></p>
+        </section>
+        <section class="order-summary">
+          <h2>Total Amount: <span>123 $</span></h2>
+          <hr>
+          <button>Checkout</button>
+        </section>
+      </article>
+    </aside>
+</body>
+</html>
